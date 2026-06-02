@@ -1,0 +1,15 @@
+DESCRIPTION: Generates a visualization of a symmetrical Pyramid using the '#' character based on the height input entered by the user.
+
+LOGIC EMPHASIS (CONDITIONALS & BOUNDARIES):
+
+1. Input Validation (Loop Condition):
+
+- Uses the conditional: (height < 1 || height > 8)
+- Meaning: The program WILL CONTINUOUSLY repeat requesting input AS LONG AS the height
+  value is less than 1 OR greater than 8 (Limiting memory & visual area).
+
+2. Algorithm Boundary Rules (Loop Control Condition):
+
+- Row Condition: (i <= height) -> Controls the total number of staircase levels.
+- Space Condition: (j < height - i) -> Reduces spaces as rows increase.
+- Block Condition: (j < i) -> Increases the number of '#' as rows increase.
