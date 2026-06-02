@@ -1,0 +1,29 @@
+# v2 - Conditionals & Loops
+
+## Project 1: Shoot the Enemy
+
+Game text-based, defence attack, shot the enemies untill their strengh 0. Use `while` + `if` on C.
+
+### Learning Concept
+
+- `while` loop intent to looping game di C
+- `if` condition intent to validasi input di C
+- `scanf` inted to input numeral at C
+
+### Cara Compile & Run
+
+1. `gcc shoot_enemy.c -o shoot`
+2. `./shoot`
+3. Pencet `1` + press Enter to shoot
+
+### Contoh OutputGame Text Base
+
+The Enemies Come! strengh 100 HP
+Shoot the enemy >> push 1 and enter: 1
+umpteenth shot 1! Remaining enemy strengh : 70 HP
+Shoot the enemy >> push 1 and enter: 1
+umpteenth shot 2! Remaining enemy strengh : 40 HP
+Shoot the enemy >> push 1 and enter: 1
+umpteenth shot 3! Remaining enemy strengh : 10 HP
+Shoot the enemy >> push 1 and enter: 1
+umpteenth shot 4! Remaining enemy strengh : 0 HPTarget distroyed!, we shot as much 4 times
